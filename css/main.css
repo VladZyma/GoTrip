@@ -1,4 +1,5 @@
 @import "./reset.css";
+@import './button.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
@@ -8,7 +9,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #E5E5E5;
+    /*background: #E5E5E5;*/
+    background: #f6f6f6;
     color: #0F1F1C;
 }
 

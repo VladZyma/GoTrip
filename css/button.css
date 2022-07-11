@@ -1,0 +1,20 @@
+.button {
+    display: flex;
+}
+.button__link {
+    padding: 25px 45px;
+
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    border-radius: 27px;
+
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 150%;
+    color: #FEFEFE;
+
+    transition: opacity 0.15s linear;
+}
+.button__link:hover {
+    opacity: 0.8;
+}
+
