@@ -110,10 +110,10 @@
     color: #FFFFFF;
     opacity: 0.5;
 }
-.button {
+.header__content-button {
     display: flex;
 }
-.button__link {
+.header__content-button__link {
     padding: 26px 47px;
 
     background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
