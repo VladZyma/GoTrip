@@ -5,124 +5,91 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GoTrip</title>
+    <title>Go trip</title>
+<!--    Styles-->
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/choice.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-          integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
-          integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
 <!--    Header
-=======================================================-->
-<header class="header">
-    <div class="container">
-        <div class="nav-row">
-            <div class="nav__logo">
-                <p class="nav__logo-text">
-                    GoTrip
-                </p>
-            </div>
-            <ul class="nav__list">
-                <li class="nav__list-item">
-                    <a class="nav__list-item-link" href="#" target="_self">
-                        Home
+=====================================-->
+    <header class="header">
+        <div class="container">
+            <div class="header__row">
+                <div class="header__logo">
+                    <a class="header__logo-link" href="#" target="_blank">
+                        GoTrip
                     </a>
-                </li>
-                <li class="nav__list-item">
-                    <a class="nav__list-item-link" href="#" target="_self">
-                        Services
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-list-item">
+                            <a class="header__nav-list-item-link" href="#" target="_self">
+                                Home
+                            </a>
+                        </li>
+                        <li class="header__nav-list-item">
+                            <a class="header__nav-list-item-link" href="#" target="_self">
+                                Services
+                            </a>
+                        </li>
+                        <li class="header__nav-list-item">
+                            <a class="header__nav-list-item-link" href="#" target="_self">
+                                Pricing
+                            </a>
+                        </li>
+                        <li class="header__nav-list-item">
+                            <a class="header__nav-list-item-link" href="#" target="_self">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__login">
+                    <a class="header__login-sign-up-link" href="#" target="_blank">
+                        Sign up
                     </a>
-                </li>
-                <li class="nav__list-item">
-                    <a class="nav__list-item-link" href="#" target="_self">
-                        Pricing
-                    </a>
-                </li>
-                <li class="nav__list-item">
-                    <a class="nav__list-item-link" href="#" target="_self">
-                        Contact
-                    </a>
-                </li>
-            </ul>
-            <div class="nav__login">
-                <a class="nav__login-sign-up" href="#" target="_self">
-                    Sign Up
-                </a>
-                <a class="nav__login-link" href="#" target="_self">
-                    Login
-                </a>
-            </div>
-        </div>
-        <!--            Content
-        ====================================================================-->
-        <div class="header__content">
-            <h1 class="header__content-title">
-                exsplore the world
-            </h1>
-            <h3 class="header__content-subtitle">
-                Explore The Natural
-                Beauty Of Halmahera
-                With Us
-            </h3>
-            <div class="header__content-description">
-                <p class="header__content-description-text">
-                    explore the beauty of god's earth in a beautiful forest and have fun
-                </p>
-            </div>
-            <a class="header__content-btn-link" href="#" target="_self">
-                Exsplore Now
-            </a>
-            <div class="header__content-img-wrapper">
-                <img class="header__content-img" src="./img/header-girl.png" alt="">
-            </div>
-        </div>
-    </div>
-</header>
-<!--Main
-========================================================-->
-<main>
-    <section class="choice">
-        <div class="container-right">
-            <div class="choice-row">
-                <div class="choice__description">
-                    <h2 class="choice__description-title">
-                        Choice of <span>Destinations</span>
-                    </h2>
-                    <div class="choice__description-wrapper">
-                        <p class="choice__description-text">
-                            explore the beauty of god's earth in a beautiful forest and have fun
-                        </p>
-                    </div>
-                    <div class="button">
-                        <a class="button__link" href="#" target="_blank">
-                            Exsplore Now
+                    <div class="header__login-btn">
+                        <a class="header__login-btn-link" href="#" target="_self">
+                            Login
                         </a>
                     </div>
                 </div>
-                <div class="choice__slider">
-                    <div class="slider">
-                        <div class="owl-carousel">
-                            <img class="slider__img" src="./img/slider-1.png" alt="">
-                            <img class="slider__img active" src="./img/slider-2.png" alt="">
-                            <img class="slider__img" src="./img/slider-3.png" alt="">
-                        </div>
-                    </div>
+            </div>
+            <div class="header__content">
+                <h2 class="header__content-title">
+                    exsplore the world
+                </h2>
+                <h1 class="header__content-subtitle">
+                    Explore The Natural
+                    Beauty Of Halmahera
+                    With Us
+                </h1>
+                <p class="header__content-text">
+                    explore the beauty of god's earth in a beautiful forest and have fun
+                </p>
+                <div class="button">
+                    <a class="button__link" href="#" target="_self">
+                        Exsplore Now
+                    </a>
                 </div>
             </div>
+            <div class="header__img">
+                <img class="header__img-element" src="./img/header-girl.png" alt="girl picture">
+            </div>
+            <div class="el-1">
+                <img src="./img/el-1.svg" alt="">
+            </div>
+            <div class="el-2">
+                <img src="./img/el-2.svg" alt="">
+            </div>
+            <div class="el-3">
+                <img src="./img/el-3.svg" alt="">
+            </div>
+            <div class="el-4">
+                <img src="./img/el-4.svg" alt="">
+            </div>
         </div>
-    </section>
-</main>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
-</script>
-<script src="./js/main.js"></script>
+    </header>
 </body>
 </html>
